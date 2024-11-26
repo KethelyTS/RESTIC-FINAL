@@ -1,0 +1,41 @@
+package.json
+@@ -0,0 +1,45 @@
+{
+    "name": "@angular/player-module",
+    "version": "19.0.0",
+    "description": "Angular Player Module",
+    "repository": {
+      "type": "git",
+      "url": "https://"
+    },
+    "keywords": [
+      "angular",
+      "components",
+      "video",
+      "player"
+    ],
+    "license": "MIT",
+    "bugs": {
+      "url": "https://"
+    },
+    "homepage": "https://",
+    "dependencies": {
+      "@types/youtube": "^0.0.50",
+      "tslib": "^2.3.0"
+    },
+    "peerDependencies": {
+      "@angular/core": "^19.0.0 || ^20.0.0",
+      "@angular/common": "^19.0.0 || ^20.0.0",
+      "rxjs": "^6.5.3 || ^7.4.0"
+    },
+    "sideEffects": false,
+    "schematics": "./schematics/collection.json",
+    "ng-update": {},
+    "module": "./fesm2022/player-module.mjs",
+    "typings": "./index.d.ts",
+    "type": "module",
+    "exports": {
+      "./package.json": {
+        "default": "./package.json"
+      },
+      ".": {
