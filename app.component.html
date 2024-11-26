@@ -1,0 +1,31 @@
+app.component.html
+@@ -0,0 +1,29 @@
+<div class="app-container">
+    <header>
+      <!-- Logo ou cabeçalho -->
+      <div class="logo">
+        <h1>Plataforma de Vídeos Interativa</h1>
+      </div>
+    </header>
+  
+    <!-- Área de navegação com rotas -->
+    <nav>
+      <ul>
+        <li><a routerLink="/home" routerLinkActive="active">Início</a></li>
+        <li><a routerLink="/explore" routerLinkActive="active">Explorar</a></li>
+        <li><a routerLink="/favorites" routerLinkActive="active">Favoritos</a></li>
+        <li><a routerLink="/profile" routerLinkActive="active">Perfil</a></li>
+      </ul>
+    </nav>
+  
+    <!-- Área de conteúdo que muda com a navegação -->
+    <main>
+      <router-outlet></router-outlet>
+    </main>
+  
+    <!-- Rodapé da aplicação -->
+    <footer>
+      <p>&copy; 2024 Plataforma de Vídeos Interativa</p>
+    </footer>
+  </div>
+  
