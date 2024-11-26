@@ -1,0 +1,7 @@
+
+@@ -0,0 +1,5 @@
+<div class="google-login-container">
+  <button class="google-login-btn" (click)="loginWithGoogle()">
+    <i class="fa fa-google"></i> Entrar com Google
+  </button>
+</div>
